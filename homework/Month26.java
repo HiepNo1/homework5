@@ -9,6 +9,10 @@ public class Month26 {
         System.out.println("Tháng hiện tại : " + monthNow);
         LocalDate lastMonth = timeNow.withDayOfMonth(timeNow.lengthOfMonth());
         System.out.println("thoi luong cua thang la " + lastMonth);
+        /**
+         * check condition
+         * how to print without if else
+         */
         if (1 <= monthNow & monthNow <= 3) {
             System.out.println("Tháng đầu của Quý là 1");
         } else if (4 <= monthNow & monthNow <= 6) {

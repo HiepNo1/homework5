@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class LeapYear18 {
     public static boolean isLeapYear(int year) {
+        // optimize code
         if (year % 100 == 0) {
             if (year % 400 == 0) {
                 return true;

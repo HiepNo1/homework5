@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class Age32 {
     public static int calculateAge (LocalDate dateOfBirth) {
+        // now : 2022-09-20 , your age  2000-09-19 (age ???)
         return LocalDate.now().getYear() - dateOfBirth.getYear();
     }
 

@@ -14,6 +14,7 @@ public class FinalDayE8 {
         try {
             time = LocalDate.parse(scanner.nextLine());
         } catch (DateTimeParseException e) {
+            // if time error, what will happen ??
             e.printStackTrace();
         }
         LocalDate lastDate = time.withDayOfMonth(time.lengthOfMonth());
